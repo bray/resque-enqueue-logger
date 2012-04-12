@@ -14,6 +14,6 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2012 bray. See LICENSE.txt for
+Copyright (c) 2012 Brian Ray. See LICENSE.txt for
 further details.
 
