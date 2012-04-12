@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/resque-enqueue-logger.rb",
     "lib/resque-enqueue-logger/resque/plugins/enqueue-logger.rb",
+    "resque-enqueue-logger.gemspec",
     "test/helper.rb",
     "test/test_resque-enqueue-logger.rb"
   ]
