@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{resque-enqueue-logger}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["bray"]
@@ -14,18 +14,18 @@ Gem::Specification.new do |s|
   s.email = %q{brian.ray1@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README.rdoc"
+    "README.md"
   ]
   s.files = [
     ".document",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
-    "README.rdoc",
+    "README.md",
     "Rakefile",
     "VERSION",
     "lib/resque-enqueue-logger.rb",
-    "lib/resque-enqueue-logger/resque/plugins/enqueue-logger.rb",
+    "lib/resque/plugins/enqueue-logger.rb",
     "resque-enqueue-logger.gemspec",
     "test/helper.rb",
     "test/test_resque-enqueue-logger.rb"
