@@ -11,7 +11,7 @@ module Resque
       end
       
       def before_enqueue_logger(*args)
-        @@logger.info "Resqueue enqueue: #{self} #{args} at #{Time.now}" unless @@logger.nil?
+        @@logger.info "Resque enqueue: #{self} #{args} at #{Time.now}" unless @@logger.nil?
       ensure
         true # ensure logging doesn't prevent the job from getting enqueued
       end
