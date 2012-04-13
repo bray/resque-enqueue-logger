@@ -2,7 +2,7 @@
 resque-enqueue-logger
 ===============
 
-Resque plugin that adds simple logging before enqueueing a job.
+Resque plugin that adds simple logging after enqueueing a job.
 
 Installation
 ---------
